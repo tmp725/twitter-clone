@@ -1,0 +1,4 @@
+.sidebar {
+  @apply w-full;
+  flex: 0.15;
+}
