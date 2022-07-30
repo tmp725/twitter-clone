@@ -1,0 +1,9 @@
+.sidebarData {
+  @apply cursor-pointer px-5 py-1;
+}
+
+.sidebarData:hover {
+  @apply rounded-2xl;
+  color: #00acee;
+  background-color: #e8f5fe;
+}
