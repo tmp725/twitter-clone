@@ -1,0 +1,16 @@
+.tweetBox {
+  border-bottom: 5px solid var(--twitter-background);
+}
+
+.tweetBox-input {
+  @apply flex p-5;
+}
+
+.tweetBox-input input {
+  @apply ml-5 border-none text-xl;
+  flex: 1;
+}
+
+.tweetBox-postImage {
+  @apply p-5 border-none;
+}
