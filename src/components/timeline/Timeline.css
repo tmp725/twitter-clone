@@ -1,0 +1,13 @@
+.timeline {
+  @apply overflow-y-scroll;
+  flex: 0.55;
+}
+
+.timeline::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.timeline-header {
+  @apply sticky top-0 p-4 bg-white;
+  border: 1px solid var(--twitter-background);
+}
