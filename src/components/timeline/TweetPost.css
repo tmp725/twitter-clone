@@ -1,0 +1,21 @@
+.tweetPost {
+  @apply flex items-start;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.tweetPost-body {
+  @apply p-5;
+  flex: 0.5;
+}
+
+.tweetPost-body img {
+  @apply rounded w-full;
+}
+
+.tweetPost-header-badge {
+  @apply text-sm;
+}
+
+.tweetPost-footer {
+  @apply flex justify-between mt-5;
+}
